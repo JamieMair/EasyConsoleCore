@@ -1,9 +1,9 @@
 # EasyConsoleCore [![NuGet](https://img.shields.io/nuget/v/EasyConsole.svg)](https://www.nuget.org/packages/EasyConsoleCore)
 EasyConsoleCore is a library to make it easier for developers to build a simple menu interface for a .NET Core console application.
 
-```
-This project is a port of [EasyConsole](https://github.com/splttingatms/EasyConsole), originally designed by [splttingatms](https://github.com/splttingatms).
-```
+
+**This project is a port of [EasyConsole](https://github.com/splttingatms/EasyConsole), originally designed by [splttingatms](https://github.com/splttingatms).**
+
 
 ![Program Demo](https://i.imgur.com/Hlc2QoI.gif)
 
