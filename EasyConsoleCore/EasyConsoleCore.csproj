@@ -5,6 +5,15 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <ApplicationIcon />
     <StartupObject />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company />
+    <Product />
+    <PackageProjectUrl>https://github.com/JamieMair/EasyConsoleCore</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/splttingatms/EasyConsole/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/JamieMair/EasyConsoleCore</RepositoryUrl>
+    <RepositoryType>Fork of https://github.com/splttingatms/EasyConsole</RepositoryType>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <Description>Port of EasyConsole by splttingatms (https://www.nuget.org/profiles/splttingatms)</Description>
   </PropertyGroup>
 
 </Project>
