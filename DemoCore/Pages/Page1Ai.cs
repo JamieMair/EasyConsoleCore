@@ -1,11 +1,11 @@
-﻿using EasyConsole;
+﻿using EasyConsoleCore;
 
-namespace Demo.Pages
+namespace DemoCore.Pages
 {
-    class Page1B : Page
+    class Page1Ai : Page
     {
-        public Page1B(Program program)
-            : base("Page 1B", program)
+        public Page1Ai(Program program)
+            : base("Page 1Ai", program)
         {
         }
 
@@ -13,7 +13,7 @@ namespace Demo.Pages
         {
             base.Display();
 
-            Output.WriteLine("Hello from Page 1B");
+            Output.WriteLine("Hello from Page 1Ai");
 
             Input.ReadString("Press [Enter] to navigate home");
             Program.NavigateHome();

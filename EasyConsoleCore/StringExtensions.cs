@@ -1,4 +1,4 @@
-﻿namespace EasyConsole
+﻿namespace EasyConsoleCore
 {
     public static class StringExtensions
     {

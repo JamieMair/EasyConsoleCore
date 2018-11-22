@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace EasyConsole
+namespace EasyConsoleCore
 {
     public abstract class Page
     {

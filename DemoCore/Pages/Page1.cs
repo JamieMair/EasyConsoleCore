@@ -1,6 +1,6 @@
-﻿using EasyConsole;
+﻿using EasyConsoleCore;
 
-namespace Demo.Pages
+namespace DemoCore.Pages
 {
     class Page1 : MenuPage
     {

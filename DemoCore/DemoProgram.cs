@@ -1,7 +1,7 @@
-﻿using Demo.Pages;
-using EasyConsole;
+﻿using DemoCore.Pages;
+using EasyConsoleCore;
 
-namespace Demo
+namespace DemoCore
 {
     class DemoProgram : Program
     {

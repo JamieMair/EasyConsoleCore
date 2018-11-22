@@ -1,4 +1,4 @@
-﻿namespace Demo
+﻿namespace DemoCore
 {
     class Runner
     {

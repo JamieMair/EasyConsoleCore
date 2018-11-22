@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EasyConsole
+namespace EasyConsoleCore
 {
     public class Option
     {
