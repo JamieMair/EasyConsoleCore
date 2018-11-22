@@ -9,7 +9,6 @@ namespace EasyConsoleCore
             Output.DisplayPrompt(prompt);
             return ReadInt(min, max);
         }
-
         public static int ReadInt(int min, int max)
         {
             int value = ReadInt();
@@ -22,7 +21,6 @@ namespace EasyConsoleCore
 
             return value;
         }
-
         public static int ReadInt()
         {
             string input = Console.ReadLine();
@@ -36,6 +34,38 @@ namespace EasyConsoleCore
 
             return value;
         }
+
+        public static long ReadLong(string prompt, long min, long max)
+        {
+            Output.DisplayPrompt(prompt);
+            return ReadLong(min, max);
+        }
+        public static long ReadLong(long min, long max)
+        {
+            long value = ReadLong();
+
+            while (value < min || value > max)
+            {
+                Output.DisplayPrompt("Please enter an integer between {0} and {1} (inclusive)", min, max);
+                value = ReadLong();
+            }
+
+            return value;
+        }
+        public static long ReadLong()
+        {
+            string input = Console.ReadLine();
+            long value;
+
+            while (!long.TryParse(input, out value))
+            {
+                Output.DisplayPrompt("Please enter an integer");
+                input = Console.ReadLine();
+            }
+
+            return value;
+        }
+
 
         public static string ReadString(string prompt)
         {
