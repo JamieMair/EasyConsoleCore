@@ -14,6 +14,8 @@
     <RepositoryType>Fork of https://github.com/splttingatms/EasyConsole</RepositoryType>
     <PackageReleaseNotes></PackageReleaseNotes>
     <Description>Port of EasyConsole by splttingatms (https://www.nuget.org/profiles/splttingatms)</Description>
+    <Version>1.0.1</Version>
+    <Authors>splttingatms, jamiemair</Authors>
   </PropertyGroup>
 
 </Project>
