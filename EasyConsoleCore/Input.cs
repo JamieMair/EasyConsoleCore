@@ -4,6 +4,14 @@ namespace EasyConsoleCore
 {
     public static class Input
     {
+
+        public static bool ReadBool(string prompt)
+        {
+            return ReadEnum<TrueFalse>(prompt) == TrueFalse.True;
+        }
+
+
+
         public static int ReadInt(string prompt, int min, int max)
         {
             Output.DisplayPrompt(prompt);
@@ -29,6 +37,37 @@ namespace EasyConsoleCore
             while (!int.TryParse(input, out value))
             {
                 Output.DisplayPrompt("Please enter an integer");
+                input = Console.ReadLine();
+            }
+
+            return value;
+        }
+
+        public static double ReadDouble(string prompt, double min, double max)
+        {
+            Output.DisplayPrompt(prompt);
+            return ReadDouble(min, max);
+        }
+        public static double ReadDouble(double min, double max)
+        {
+            double value = ReadDouble();
+
+            while (value < min || value > max)
+            {
+                Output.DisplayPrompt("Please enter a double value between {0} and {1} (inclusive)", min, max);
+                value = ReadDouble();
+            }
+
+            return value;
+        }
+        public static double ReadDouble()
+        {
+            string input = Console.ReadLine();
+            double value;
+
+            while (!double.TryParse(input, out value))
+            {
+                Output.DisplayPrompt("Please enter a double value");
                 input = Console.ReadLine();
             }
 
